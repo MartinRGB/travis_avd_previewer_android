@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Jan 09 15:27:11 CST 2019
+0.base=/Users/martinrgb/Desktop/OPPO/jenkins_avd_previewer_android/app/build/intermediates/transforms/dexMerger/release/0
+0.path=classes.dex
+count=1
+0.baseType=DIRECTORY
+0.set=DEX

@@ -10,7 +10,8 @@ gen/
 out/
 
 # Gradle files
-build/intermediates
+gradle/
+# build/intermediates/lint-cache
 
 # Local configuration file (sdk path, etc)
 local.properties
