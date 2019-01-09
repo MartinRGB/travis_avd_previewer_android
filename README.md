@@ -2,7 +2,7 @@
 
 # travis_avd_previewer_android
 
-Android 的 AnimatedVectorDrawable 无法从外部读取 .XML 来预览动画。因为需要在编译时将 .XML 生成二进制文件，然后再使用。
+Android 的 AnimatedVectorDrawable  无法从外部读取 .XML 来预览动画。因为需要在编译时将 .XML 生成二进制文件，然后再使用。
 
 尝试使用 **Travis CI**（适合 repo 使用） 和 **Jenkins**（适合内网服务器） 来完成Android AVD 自动化编译打包 -> 预览。
 
