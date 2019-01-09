@@ -10,7 +10,7 @@ gen/
 out/
 
 # Gradle files
-build/
+# build/
 
 # Local configuration file (sdk path, etc)
 local.properties

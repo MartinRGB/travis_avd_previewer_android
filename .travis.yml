@@ -1,9 +1,16 @@
 language: android
 android:
   components:
-    - build-tools-28.0.3
-    - android-28
-    - extra
-    - add-on
+  - build-tools-28.0.3
+  - android-28
+  - extra-android-m2repository
+  - extra-android-support
 script:
-  - "./gradlew assembleRelease"
+- "./gradlew assembleRelease"
+deploy:
+  provider: releases
+  api_key:
+    secure: S2zQbLjjgel9aaj2sHotnpKimzpkp69DbohL7/QN+8e/SMlB9Jf2nML7HPhNeOWt/O7naxZUIerSWReW2bu/z8TVsN5FPA6mSJNs9Hp4PzFWWyM/+FNAq2khcb7g2XymayFHPR310jT08DxbUUNXqSur/NIqC/rXLx4tHDQncBaGyznRgSIZB6pOeY/CoKtpxrLK++2EuvPFgJ42uNX0//j4yzxgZ++QZ7/kgRlVVDzz3mRUT9SI+aeDZlSpKGK/BqMOCKYDuneG7eOMt5BKFP6qWSk0Qzf7C3IKK2gLTt61QJFYfQF4WlorgRdVkEGEPuuLcwl4DcwhwShduQ3S9YHmEkCqYwyFV6k1O4DpGTvGxnfjBarcVLdX+VdpyiWdoA97bDEE9aogghyCaHgAgKRLhW7ZkNWgJr8/3cFMw26AnyzlERLvgUL5Zg/U7kepHL1mToOldKaS8K4ECf4JaTmBBJA0AIbScEGWAROGF/iA9157aDfnMH6k4QFoMkgIkL8TauF9mc+61hpDUX/3SR/ZSV0ECiJNZFgOvi0qqV34OAGibM7F2warv/HDZGdJ4yY6nWUrJCDGHVkoWdkFjmRpXH4n5NfwwpAC3bZt+h5JY9OkY0syN/TdV6DA+bpOU4N7LzgaASMkocmyY2M5JM96BN+O7tdNkXCL3YSOOOA=
+  file: app/build/outputs/apk/app-release.apk
+  on:
+    repo: MartinRGB/jenkins_avd_previewer_android
