@@ -16,6 +16,12 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        android.applicationVariants.all { variant ->
+            variant.outputs.all {
+                def releaseTime = new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
+                outputFileName = "avd_previewer_${defaultConfig.versionName}_${defaultConfig.versionCode}_${releaseTime}.apk"
+            }
+        }
     }
 }
 
