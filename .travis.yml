@@ -5,3 +5,5 @@ android:
     - android-28
     - extra
     - add-on
+script:
+  - "./gradlew assembleRelease"
