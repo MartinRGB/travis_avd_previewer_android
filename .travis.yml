@@ -16,3 +16,6 @@ deploy:
   on:
     repo: MartinRGB/jenkins_avd_previewer_android
 
+branches:
+  only:
+  - master
