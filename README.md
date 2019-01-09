@@ -8,21 +8,21 @@ Android 的 AnimatedVectorDrawable 无法从外部读取 .XML 来预览动画。
 
 ## 视频教程
 
-[视频地址](https://github.com/MartinRGB/jenkins_avd_previewer_android/blob/master/art/tutorial.mp4?raw=true)
+[视频地址](https://github.com/MartinRGB/travis_avd_previewer_android/blob/master/art/tutorial.mp4?raw=true)
 
 ## 使用方法
 
 - 把 Bodymovin 生成的 **data.xml** 的代码复制粘贴进 **REPLACEMENT_FOLDER** 的 **data.xml** 然后点击 'Commit change'
 
-![img0](https://raw.githubusercontent.com/MartinRGB/jenkins_avd_previewer_android/master/art/0.png?token=AGtfIplf1-fQxvBAN2R1Dr2TinBx8xl-ks5cPx3TwA%3D%3D)
+![img0](https://github.com/MartinRGB/travis_avd_previewer_android/blob/master/art/0.png?raw=true)
 
 - 编译需要等待三分钟左右，然后点击仓库中的 Release 按钮
 
-![img1](https://github.com/MartinRGB/jenkins_avd_previewer_android/blob/master/art/1.jpg?raw=true)
+![img1](https://github.com/MartinRGB/travis_avd_previewer_android/blob/master/art/1.jpg?raw=true)
 
 - 根据时间戳，下载最新生成的 APK 并安装
 
-![img2](https://raw.githubusercontent.com/MartinRGB/jenkins_avd_previewer_android/master/art/1.jpg?token=AGtfIjqY8wXhE4ADrs7C6P0an3pdOH03ks5cPx4dwA%3D%3D)
+![img2](https://github.com/MartinRGB/travis_avd_previewer_android/blob/master/art/2.jpg?raw=true)
 
 ## 可能问题
 
