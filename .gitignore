@@ -7,10 +7,10 @@
 # Generated files
 bin/
 gen/
-# out/
+out/
 
 # Gradle files
-# build/
+build/intermediates
 
 # Local configuration file (sdk path, etc)
 local.properties
