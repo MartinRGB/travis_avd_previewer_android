@@ -1,4 +1,0 @@
-#Wed Jan 09 15:27:10 CST 2019
-base.0=/Users/martinrgb/Desktop/OPPO/jenkins_avd_previewer_android/app/build/intermediates/transforms/dexMerger/release/0
-renamed.0=classes.dex
-path.0=classes.dex
