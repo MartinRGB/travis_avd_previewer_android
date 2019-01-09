@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:id="@+id/container"
     android:background="#FF888888"
-    tools:context="com.androidsample.vectormorphing.com.androidsample.avdpreviewer.MainActivity">
+    tools:context="com.androidsample.avdpreviewer.MainActivity">
 
     <ImageView
         android:id="@+id/single_view"
