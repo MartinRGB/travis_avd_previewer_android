@@ -14,7 +14,7 @@ deploy:
   file: app/build/outputs/apk/debug/app-debug.apk
   skip_cleanup: true
   on:
-    repo: MartinRGB/jenkins_avd_previewer_android
+    repo: MartinRGB/travis_avd_previewer_android
 
 branches:
   only:
