@@ -28,7 +28,15 @@ Android 的 AnimatedVectorDrawable 无法从外部读取 .XML 来预览动画。
 
 Q：签名冲突
 
-A： 删除之前应用，重新安装新 APK 即可
+A：删除之前应用，重新安装新 APK 即可
+
+Q：编译失败后重新编译
+
+A：可以重新 commit 触发编译（WIP)
+
+Q：Travis CI 的 Trigger 范围太广
+
+A：后续完善
 
 
 ## 参考
