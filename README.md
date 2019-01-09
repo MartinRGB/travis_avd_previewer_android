@@ -8,7 +8,17 @@ Android 的 AnimatedVectorDrawable 无法从外部读取 .XML 来预览动画。
 
 ## 使用方法
 
-把 Bodymovin 生成的 **data.xml** 放进 **REPLACEMENT_FOLDER**，等待自动化编译完成即可（Jenkins 对应服务器目录，Travisi CI 对应目录）
+- 把 Bodymovin 生成的 **data.xml** 的代码复制粘贴进 **REPLACEMENT_FOLDER** 的 **data.xml** 然后点击 'Commit change'
+
+![img0](https://raw.githubusercontent.com/MartinRGB/jenkins_avd_previewer_androidmaster/art/00.png)
+
+- 编译需要等待三分钟左右，然后点击仓库中的 Release 按钮
+
+![img1](https://raw.githubusercontent.com/MartinRGB/jenkins_avd_previewer_androidmaster/art/01.jpg)
+
+- 根据时间戳，下载最新生成的 APK 并安装
+
+![img1](https://raw.githubusercontent.com/MartinRGB/jenkins_avd_previewer_androidmaster/art/02.jpg)
 
 ## 可能问题
 
