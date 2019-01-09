@@ -38,6 +38,18 @@ Q：Travis CI 的 Trigger 范围太广
 
 A：后续完善
 
+## Fork使用方法
+
+- fork 下来后，需要 `gem install travis` 安装 travis-ci
+
+- 进入 repo 根目录 `travis setup release` 来生成 `.travis.yml` 中自己repo的 API_KEY
+
+- 修改 `.travis.yml`中 repo 的地址
+
+- 进入 [Travis Ci](https://travis-ci.org/),在右侧 Setting 中找到 repo，开启开关。
+
+- commit 触发自动编译 -> Release
+
 
 ## 参考
 
