@@ -20,6 +20,8 @@ proguard/
 
 .gradle/
 
+.idea/
+
 # Log Files
 *.log
 
