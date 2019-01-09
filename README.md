@@ -2,15 +2,17 @@
 
 # travis_avd_previewer_android
 
+## 简介
+
 Android 的 AnimatedVectorDrawable  无法从外部读取 .XML 来预览动画。因为需要在编译时将 .XML 生成二进制文件，然后再使用。
 
 尝试使用 **Travis CI**（适合 repo 使用） 和 **Jenkins**（适合内网服务器） 来完成Android AVD 自动化编译打包 -> 预览。
 
-## 视频教程
+## AVD 测试视频教程
 
 [视频地址](https://github.com/MartinRGB/travis_avd_previewer_android/blob/master/art/tutorial.mp4?raw=true)
 
-## 使用方法
+## AVD 测试使用方法
 
 - 把 Bodymovin 生成的 **data.xml** 的代码复制粘贴进 **REPLACEMENT_FOLDER** 的 **data.xml** 然后点击 'Commit change'
 
@@ -26,11 +28,11 @@ Android 的 AnimatedVectorDrawable  无法从外部读取 .XML 来预览动画�
 
 ## 可能问题
 
-Q：签名冲突
+Q：签名冲突？
 
 A：删除之前应用，重新安装新 APK 即可
 
-Q：编译失败后重新编译
+Q：编译失败后如何重新编译？
 
 A：可以重新 commit 触发编译（WIP)
 
@@ -38,18 +40,19 @@ Q：Travis CI 的 Trigger 范围太广
 
 A：后续完善
 
-## Fork使用方法
+## Fork 使用方法
+
+- 确保本机拥有 Ruby 环境
 
 - fork 下来后，需要 `gem install travis` 安装 travis-ci
 
-- 进入 repo 根目录 `travis setup release` 来生成 `.travis.yml` 中自己repo的 API_KEY
+- 进入 repo 根目录 `travis setup release` 来生成 `.travis.yml` 中 repo 的 api_key | secure:
 
 - 修改 `.travis.yml`中 repo 的地址
 
-- 进入 [Travis Ci](https://travis-ci.org/),在右侧 Setting 中找到 repo，开启开关。
+- 进入 [Travis Ci](https://travis-ci.org/),开启服务，在右侧 Setting 中找到 repo，开启开关。
 
-- commit 触发自动编译 -> Release
-
+- commit 触发自动编译 -> releases 页面生成 apk
 
 ## 参考
 
