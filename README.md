@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MartinRGB/jenkins_avd_previewer_android.svg?branch=master)](https://travis-ci.org/MartinRGB/jenkins_avd_previewer_android)
+
 # jenkins_avd_previewer_android
 
 Android 的 AnimatedVectorDrawable 无法从外部读取 .XML 来预览动画。因为需要在编译时将 .XML 生成二进制文件，然后再使用。
@@ -7,6 +9,13 @@ Android 的 AnimatedVectorDrawable 无法从外部读取 .XML 来预览动画。
 ## 使用方法
 
 把 Bodymovin 生成的 **data.xml** 放进 **REPLACEMENT_FOLDER**，等待自动化编译完成即可（Jenkins 对应服务器目录，Travisi CI 对应目录）
+
+## 可能问题
+
+Q：签名冲突
+
+A： 删除之前应用，重新安装新 APK 即可
+
 
 ## 参考
 
