@@ -1,1 +1,31 @@
-<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"><aapt:attr name="android:drawable"><vector android:height="500dp" android:width="500dp" android:viewportHeight="500" android:viewportWidth="500"><group android:name="_R_G"><group android:name="_R_G_L_1_G" android:translateX="216.328" android:translateY="194.328"><path android:name="_R_G_L_1_G_D_0_P_0" android:fillColor="#3494f5" android:fillAlpha="1" android:fillType="nonZero" android:pathData=" M217.34 -128 C217.34,-128 217.34,239.34 217.34,239.34 C217.34,239.34 -150,239.34 -150,239.34 C-150,239.34 -150,-128 -150,-128 C-150,-128 217.34,-128 217.34,-128c "/></group><group android:name="_R_G_L_0_G" android:translateX="250" android:translateY="250"><path android:name="_R_G_L_0_G_D_0_P_0" android:strokeColor="#ffffff" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeWidth="35" android:strokeAlpha="1" android:trimPathStart="0" android:trimPathEnd="0" android:trimPathOffset="0" android:pathData=" M-114 -44 C-114,-44 -26,70 -26,70 C-26,70 158,-110 158,-110 "/><path android:name="_R_G_L_0_G_D_1_P_0" android:strokeColor="#ffffff" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeWidth="35" android:strokeAlpha="1" android:pathData="  "/></group></group><group android:name="time_group"/></vector></aapt:attr><target android:name="_R_G_L_0_G_D_0_P_0"><aapt:attr name="android:animation"><set android:ordering="together"><objectAnimator android:propertyName="trimPathEnd" android:duration="650" android:startOffset="0" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"><aapt:attr name="android:interpolator"><pathInterpolator android:pathData="M 0.0,0.0 c0.333,0 0.667,1 1.0,1.0"/></aapt:attr></objectAnimator></set></aapt:attr></target><target android:name="time_group"><aapt:attr name="android:animation"><set android:ordering="together"><objectAnimator android:propertyName="translateX" android:duration="667" android:startOffset="0" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"/></set></aapt:attr></target></animated-vector>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector android:height="333dp" android:width="333dp" android:viewportHeight="1000" android:viewportWidth="1000">
+            <group android:name="_R_G">
+                <group android:name="_R_G_L_0_G" android:translateX="500" android:translateY="500" android:pivotX="-12.426" android:pivotY="3.574" android:rotation="0">
+                    <path android:name="_R_G_L_0_G_D_0_P_0" android:fillColor="#fff2bc" android:fillAlpha="1" android:fillType="nonZero" android:pathData=" M85.15 -94 C85.15,-94 85.15,101.15 85.15,101.15 C85.15,101.15 -110,101.15 -110,101.15 C-110,101.15 -110,-94 -110,-94 C-110,-94 85.15,-94 85.15,-94c "/>
+                    <path android:name="_R_G_L_0_G_D_1_P_0" android:strokeColor="#faff61" android:strokeLineCap="butt" android:strokeLineJoin="miter" android:strokeWidth="0" android:strokeAlpha="1" android:pathData=" M85.15 -94 C85.15,-94 85.15,101.15 85.15,101.15 C85.15,101.15 -110,101.15 -110,101.15 C-110,101.15 -110,-94 -110,-94 C-110,-94 85.15,-94 85.15,-94c "/>
+                </group>
+            </group>
+            <group android:name="time_group"/>
+        </vector>
+    </aapt:attr>
+    <target android:name="_R_G_L_0_G">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator android:propertyName="rotation" android:duration="2167" android:startOffset="0" android:valueFrom="0" android:valueTo="360" android:valueType="floatType">
+                    <aapt:attr name="android:interpolator">
+                        <pathInterpolator android:pathData="M 0.0,0.0 c0.33,0 0.67,1 1.0,1.0"/>
+                    </aapt:attr>
+                </objectAnimator>
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="time_group">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator android:propertyName="translateX" android:duration="2183" android:startOffset="0" android:valueFrom="0" android:valueTo="1" android:valueType="floatType"/>
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>
